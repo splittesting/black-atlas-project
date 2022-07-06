@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+html {
+  display: block;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
+head {
+  display: none;
+}
+
+div {
+    display: block;
+}
+
+#logo {
+  width: 150px;
+  height:150px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold
+}
+
+h2 {
+    margin: 0;
+    padding: 10px;
+}
+
+h3 {
+    margin: 0;
+    padding: 10px;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h2, h3, h4, p {
+    margin: 0;
+    padding: 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+.navbar p {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+a {
+    color: black;
+}
+
+.main {
+    padding-top: 35px;
+    opacity: 0.9;
+}
+
+.mission {
+    display: flex;
+    height: 300px;
+    background-image: url(https://cdn.pixabay.com/photo/2014/03/25/16/34/world-map-297446_960_720.png);
+    padding-top: 35px;
+}
+
+.mission .content {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+}
+
+#portfolio {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.service-container {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+}
+
+.service span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.team {
+    background-image: url(https://cdn.pixabay.com/photo/2017/06/22/20/08/white-2432313_960_720.jpg);
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teammate {
+    padding: 10px;
+    color: black;
+    flex-basis: 280px;
+}
+
+.teammate img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
+
+.contact, .copyright {
+    padding-top: 20px;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
